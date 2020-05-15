@@ -1,0 +1,151 @@
+body {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+a {
+	color: #336699;
+}
+
+a:hover {
+	color: #900;
+}
+
+img:not([class*="logo"]) {
+	padding: 3px;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	background-color: white;
+}
+
+header {
+	padding: 15px 0;
+	background-color: #333;
+}
+
+.nav-header {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.header-nav-link {
+	padding: 10px 20px;
+	color: whitesmoke;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+.header-nav-link:hover {
+	color: whitesmoke;
+	background-color: #585858;
+}
+
+.latest-episodes {
+	padding: 20px 0;
+	background-color: #eee;
+}
+
+.latest-episodes > div {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.title-latest-episodes {
+	margin-bottom: 20px;
+}
+
+.title-latest-episodes h1 {
+	font-size: 18px;
+}
+
+.title-latest-episodes a {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.content-latest-episodes a {
+	font-size: 17px;
+	font-weight: bolder;
+	text-align: center;
+	margin-top: 10px;
+}
+
+main {
+	padding: 30px 0;
+}
+
+main > div {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.show-card {
+	margin-right: 18px;
+	margin-bottom: 30px;
+}
+
+.show-card a {
+	margin-top: 3px;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.extra-infos h2 {
+	font-size: 13px;
+	color: #555;
+	margin-bottom: 20px;
+	padding-bottom: 2px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.extra-info-card {
+	margin-bottom: 50px;
+}
+
+.icon-logo {
+	width: 12px;
+	height: 12px;
+}
+
+.extra-info-card a {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+footer {
+	padding: 20px 0;
+	background-color: #585858;
+	text-align: center;
+}
+
+footer > div {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.about-footer {
+	color: whitesmoke;
+	font-weight: bold;
+	text-align: start;
+	line-height: 1.5;
+	margin-bottom: 15px;
+}
+
+.infos-footer {
+	margin-bottom: 20px;
+}
+
+footer a {
+	color: #ccc;
+	font-size: 14px;
+	margin-right: 10px;
+}
+
+footer a:hover {
+	color: white;
+}
+
+.copyright {
+	color: #999;
+	font-size: 12px;
+	font-weight: bold;
+}
