@@ -38,6 +38,12 @@ header {
 	background-color: #585858;
 }
 
+@media (max-width: 900px) {
+	.links-header {
+		display: none;
+	}
+}
+
 .latest-episodes {
 	padding: 20px 0;
 	background-color: #eee;
@@ -148,4 +154,14 @@ footer a:hover {
 	color: #999;
 	font-size: 12px;
 	font-weight: bold;
+}
+
+@media (max-width: 992px) {
+	header,
+	main,
+	.latest-episodes,
+	footer {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
 }
