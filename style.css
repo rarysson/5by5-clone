@@ -165,3 +165,9 @@ footer a:hover {
 		padding-right: 25px;
 	}
 }
+
+@media (max-width: 560px) {
+	.shows {
+		justify-content: space-between;
+	}
+}
